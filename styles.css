@@ -1,0 +1,194 @@
+
+/* Navigation bar section */
+
+.Navadjust{
+    margin: 0 10%;
+}
+
+/* Landing page or Hero section */
+
+.profile{
+ margin: 12.5% 10% 7.5% 10%;
+}
+.profile-photo{
+    border: solid 3px;
+    border-radius: 50%;
+    width: 75%;
+    height: auto;
+    margin-bottom: 5%;
+}
+.Name-role{
+ text-align: left;
+}
+.Myname{
+    font-size: 4rem;
+}
+.MyRole{
+    font-size: 1rem;
+    letter-spacing: .18rem;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.hr-name{
+    width: 225px;
+    margin-left: 6.5%;
+}
+.call-for-action{
+    text-align: left;
+    margin-bottom: 2.5%;
+}
+.btn1{
+    margin-left: 2.5%;
+    margin-right: 5%;
+}
+.btn2{
+    background-color: #dc3545;
+}
+
+/* About me section  including goal and interests */
+
+.about-me{
+    margin: 10% 10%;
+    text-align: center;
+ }
+
+.about-header{
+    margin: 2.5% auto 0.5% auto;
+    text-align: center;
+}
+
+.about-hr{
+    width: 150px;
+   margin: 0 auto 2.5% auto;
+
+}
+
+.icons{
+    margin-bottom: 1%;
+    color: #dc3545;
+    margin-bottom: 5.5%;
+}
+.sub-headers{
+    margin-bottom: 5%;
+}
+.paragraphs{
+    color: #727171;
+    font-size: 1.1rem;
+}
+
+/* Skill section */
+.skills{
+    margin: 10% 10%;
+}
+
+.skill-hr{
+    width: 100px;
+    margin: 0 auto 5% auto;
+}
+
+.subskill-header{
+ font-size: calc(1rem + .6vw);
+}
+
+/* foooter section */
+
+.footer-nav{
+    list-style: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-copyright{
+    text-align: center;
+}
+
+.social-media{
+    color: #212529;
+    margin-left: 1.5rem;
+}
+.soc-name{
+      font-family:var(--bs-font-sans-serif);;
+      font-weight: 400;
+      font-size: 1rem;
+ }
+
+
+/* Mobile responsive Media querry */
+
+@media (max-width:768px) {
+    .profile{
+        text-align: center;
+        margin: 20% 10% 7.5% 10%;
+    }
+    .Name-role{
+        text-align: center;
+       }
+    .profile-photo{
+        width: 30%;
+    }
+    .call-for-action{
+        text-align: center;
+    }
+    .hr-name{
+        width: 225px;
+        margin: 5% auto;
+    }
+    .skills{
+        text-align: center;
+    }
+    .paragraphs{
+        list-style: none;
+    }
+    .myicons{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:690px) {
+  .footer-nav{
+      display: block;
+  }
+}
+
+@media (max-width:410px) {
+    .profile{
+        margin: 25% 10% 7.5% 10%;
+       }
+    .btn1{
+        display: block;
+        margin-bottom: 10%;
+        margin-top: 5%;
+    }
+    .btn2{
+        display: block;
+    }
+    .myicons{
+        font-size: 1rem;
+    }
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .footer-nav{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+}
+
+@media (max-width:371px) {
+    .Myname{
+        font-size: 3rem;
+    }
+}
+
